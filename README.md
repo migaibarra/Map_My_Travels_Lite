@@ -1,24 +1,15 @@
-# README
+## Map My Travels Lite
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This version of Map My Travels works on just the Google Maps API integration with the webpage, and does not worry about user profiles and user authentication. The purpose of this is to create a much simpler webpage to practice integrating APIs.
 
-Things you may want to cover:
+## Important Project Information
+|||                                
+|------------------|-------------|
+|**Ruby Version**  | 2.4.1p111   |
+|**Rails Version** | 5.4.1       |
+|**Database**      | SQLite3     |
+|**Testing Env**   | Rspec       |
 
-* Ruby version
+## Further Information
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please contact miggs.ibarra@gmail.com for more information about this project.
