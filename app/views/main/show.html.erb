@@ -1,1 +1,5 @@
-<h1>show me!</h1>
+<h2 class="map-form-instructions">Enter a place you have visited</h2>
+<%= form_tag({action: 'show'}, {class: "map-form"}) do %>
+  <%= text_field_tag :q, value = nil, {placeholder: "ex: Paris, TX"} %>
+  <%= submit_tag "Map It!" %>
+<% end %>
