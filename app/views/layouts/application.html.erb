@@ -8,7 +8,11 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="cartography">
+  <% if controller_name == "main" && action_name == "index" %>
+    <body class="cartography">
+  <% else %>
+    <body>
+  <% end %>
     <nav class="navbar">
       <ul class="nav">
         <li><%= link_to "Home", action: 'index' %></li>
